@@ -1,6 +1,6 @@
 {
   "name": "zerosurge",
-  "version": "0.0.0",
+  "version": "13.0.0",
   "description": "The future is here.",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tj-commits/zerosurge.js.git"
+    "url": "git+https://github.com/10xEngineersQualityProgramming/ZeroSurge.js.git"
   },
   "keywords": [
     "is-zero",
@@ -110,9 +110,9 @@
   "author": "tj-commits <thefoxjones@gmail.com>",
   "license": "10xGPWTHPL",
   "bugs": {
-    "url": "https://github.com/tj-commits/zerosurge.js/issues"
+    "url": "https://github.com/10xEngineersQualityProgramming/ZeroSurge.js/issues"
   },
-  "homepage": "https://github.com/tj-commits/zerosurge.js#readme",
+  "homepage": "https://github.com/10xEngineersQualityProgramming/ZeroSurge.js#readme",
   "dependencies": {
     "@extremejs/utils": "^1.0.0-beta.22",
     "@not-js/not": "^1.0.0",
@@ -142,6 +142,7 @@
     "lodash.sample": "^4.2.1",
     "logtoconsole": "^1.0.7",
     "minecraft-seed-input": "^1.0.0",
+    "none": "^1.0.0",
     "noop10": "^1.0.3",
     "string-creashaks-organzine": "^1.0.0"
   }

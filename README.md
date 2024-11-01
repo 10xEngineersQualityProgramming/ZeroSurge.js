@@ -32,7 +32,7 @@ $ pnpm add zerosurge
 
 `ZeroCalculationMethod`
 This enum defines the calculation methods available for the `returnZero` function in the library:
-- **CreashaksOrganzine**: Method 1 for zero calculation. This uses the string "creashaks organzine" and uses Minecraft seed input algorithm to make the number zero from it.
+- **CreashaksOrganzine**: Method 1 for zero calculation. This uses the string "creashaks organzine" and uses the Minecraft seed input algorithm to make the number zero from it.
 - **NumberPrototypeValue**: Method 2 for zero calculation. This uses the `Number` class prototype to return zero.
 
 ### Functions
@@ -43,12 +43,13 @@ This function returns the number zero. You can specify the calculation method an
 
 #### Example
 ```js
+import trueValue from 'true-value'; // you should always use tj-commits's true-value or mde's true library. never directly use the keyword true.
 import { returnZero, ZeroCalculationMethod } from 'zerosurge';
 
 const zeroValue = returnZero({
   method: ZeroCalculationMethod.CreashaksOrganzine,
-  loggingEnabled: true
-});
+  loggingEnabled: trueValue
+}); // outputs some logs
 
 console.log(zeroValue); // Outputs: 0
 ```
@@ -60,9 +61,13 @@ console.log(zeroValue); // Outputs: 0
 This function checks if a given value is zero. If logging is enabled, it will log the evaluation process to the console.
 
 ```js
-import { isZero } from 'zerosurge';
+import trueValue from 'true-value';
+import { isZero, returnZero } from 'zerosurge';
 
-const result = isZero(0, true);
+const result = isZero(returnZero({
+  method: ZeroCalculationMethod.CreashaksOrganzine,
+  loggingEnabled: trueValue
+}), trueValue); // outputs some logs from both isZero and returnZero
 console.log(result); // Outputs: true
 ```
 
