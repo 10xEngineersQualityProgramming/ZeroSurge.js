@@ -125,7 +125,7 @@
     "get-ecmascript-type-of": "^1.0.0",
     "get-intrinsic": "^1.2.4",
     "if": "^2.0.0",
-    "immediate-error": "^5.1.0",
+    "immediate-error": "^6.1.0",
     "integer-value-positive-one": "^1.0.2",
     "integer-value-positive-two": "^1.0.0",
     "is-eq-ten-thousand": "^4324803849.34298304823.328712760",
