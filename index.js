@@ -108,7 +108,7 @@ function isZero(value, loggingEnabled) {
 			kleur.cyan("[zerosurge/isZero] Calculating false using FalseJS...")
 		)
 		const FALSE = f.False(
-			loggingEnabled ? "yes" : "no",
+			"no",
 			"no",
 			"no",
 			"yes",
